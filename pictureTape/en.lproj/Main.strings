@@ -1,0 +1,12 @@
+
+/* Class = "UIViewController"; title = "ImageList"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "ImageList";
+
+/* Class = "UIButton"; configuration.title = "Войти"; ObjectID = "EEO-EU-l67"; */
+"EEO-EU-l67.configuration.title" = "Войти";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "EEO-EU-l67"; */
+"EEO-EU-l67.normalTitle" = "Enter";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "flz-7l-W6f"; */
+"flz-7l-W6f.normalTitle" = "Button";

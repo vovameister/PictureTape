@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  pictureTape
+
+  Created by Владимир Клевцов on 6.3.24..
+  
+*/
+"enter" = "Войти";
+"bуebye" = "Пока, пока!";
+"no" = "Нет";
+"yes" = "Да";
+"areu" = "Вы уверены, что хотите выйти?";

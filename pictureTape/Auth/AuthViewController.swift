@@ -12,7 +12,6 @@ final class AuthViewController: UIViewController {
     
     private let segIdentificator = "ShowWebView"
     private let tokenStorage = OAuth2TokenStorage()
-    
     private var oAuth2Service = OAuth2Service.shared
     weak var delegate: SplashViewControllerDelegate?
     

@@ -23,10 +23,10 @@ final class ProfilePresenter: ProfilePresenterProtocol {
     }
     
     func showAlertWithYesNoAction() {
-        let alertController = UIAlertController(title: "Пока, пока!", message: "Вы уверены, что хотите выйти?", preferredStyle: .alert)
+        let alertController = UIAlertController(title: byebyeString, message: areuString, preferredStyle: .alert)
         
         
-        let yesAction = UIAlertAction(title: "Да", style: .default) { (_) in
+        let yesAction = UIAlertAction(title: yesString, style: .default) { (_) in
             self.clean()
             self.tokenStorage.removeTokenFromKeychain()
             alertController.dismiss(animated: true, completion: nil)
@@ -34,7 +34,7 @@ final class ProfilePresenter: ProfilePresenterProtocol {
             self.window?.makeKeyAndVisible()
             print("User tapped 'Yes'")
         }
-        let noAction = UIAlertAction(title: "Нет", style: .cancel) { (_) in
+        let noAction = UIAlertAction(title: noString, style: .cancel) { (_) in
             alertController.dismiss(animated: true, completion: nil)
             print("User tapped 'No'")
         }

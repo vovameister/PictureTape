@@ -33,17 +33,7 @@ final class OAuth2Service {
         
         if task != nil { return }
         if lastCode == code { return }
-//        if task != nil {
-//            if lastCode != code {
-//                task?.cancel()
-//            } else {
-//                return
-//            }
-//        } else {
-//            if lastCode == code {
-//                return
-//            }
-//        }
+
         lastCode = code
         let request = authTokenRequest(code: code)
         let session = URLSession.shared
