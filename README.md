@@ -10,4 +10,4 @@ In this application you can create an account to login.
 
 Stack: Swift, UIKit, WebView, MVP, Kingficher, UserDefaults, SwiftKeychainWrapper.
 
-Figma: https://www.figma.com/file/Y8jmksdf2qxOUmLEt1Afth/Image-Feed?type=design&node-id=0-1&mode=design&t=hbxA9qjnE5P4mU6S-0
+[Figma](https://www.figma.com/file/Y8jmksdf2qxOUmLEt1Afth/Image-Feed?type=design&node-id=0-1&mode=design&t=hbxA9qjnE5P4mU6S-0)
